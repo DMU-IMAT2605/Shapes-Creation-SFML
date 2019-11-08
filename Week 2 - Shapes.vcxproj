@@ -144,10 +144,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Arc.cpp" />
+    <ClCompile Include="src\Circle.cpp" />
+    <ClCompile Include="src\Ellipse.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Quad.cpp" />
+    <ClCompile Include="src\Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Arc.h" />
+    <ClInclude Include="include\Circle.h" />
+    <ClInclude Include="include\Ellipse.h" />
     <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\Quad.h" />
+    <ClInclude Include="include\Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
